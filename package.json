@@ -1,0 +1,21 @@
+{
+  "name": "food-wagon-backend",
+  "version": "1.0.0",
+  "description": "A node.js web server that fetches data from a third-party (Swiggy) API and exposes it to a client (food-wagon) app via an HTTP endpoint.",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "parcel build server.js --target node --out-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-fetch": "^4.0.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "parcel-bundler": "^1.12.5"
+  }
+}
