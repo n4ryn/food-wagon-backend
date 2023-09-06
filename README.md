@@ -20,7 +20,7 @@ A simple node.js web server that fetches data from a third-party (Swiggy) API an
 
    - URL: `https://food-wagon-backend.onrender.com/api/restaurants?lat=:latquery&lng=:lngquery`
 
-   - Example Request: `https://food-wagon-backend.onrender.com/api/restaurants?lat=12.9351929&lng=77.62448069999999`
+   - Example Request: `https://food-wagon-backend.onrender.com/api/restaurants?lat=26.9124336&lng=75.7872709`
 
    - Explanation : This API fetches the restaurant data for the given location from Swiggy API and exposes it to the clients. The response format of this API is same as Swiggy API endpoint.
 
@@ -42,6 +42,6 @@ A simple node.js web server that fetches data from a third-party (Swiggy) API an
 
    - URL: `https://food-wagon-backend.onrender.com/api/restaurants?lat=:latquery&lng=:lngquery&menuId=:menuId`
 
-   - Example Request: `https://food-wagon-backend.onrender.com/api/menu?lat=12.9351929&lng=77.62448069999999&menuId=113657`
+   - Example Request: `https://food-wagon-backend.onrender.com/api/menu?lat=26.9124336&lng=75.7872709&restaurantId=45607`
 
    - Explanation : This API fetches the restaurant menu data in json format for the given location and menu id from Swiggy API and exposes it to the clients. The response format of this API is same as Swiggy API endpoint.
